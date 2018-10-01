@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Forca</title>
+    <meta charset="utf-8">
+
+    <!--Estilo da Página-->
+    <link rel="stylesheet" type="text/css" href="forca.css">
+</head>
+  <body>
+    <div class="principal">
+        <div align="center">
+            <img src="../assets/images/pokemon-logo.png" class="logo-image"/>
+            <h2>Jogo da Forca - Descubra o nome do Pokémon!</h2>
+        </div>
+        <br>
+        <table class="head-table">
+            <tr>
+                <td><div id="buttons"></div></td>
+            </tr>
+        </table>
+        <table class="principal-table" align="center">
+            <tr>
+                <td><div id="espacos"></div></td>
+            </tr>
+            <tr>
+                <td><div id="vidas"></div></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="reset()">Reiniciar</button>
+                    <button type="button" onclick="sounds()">Ativar/Desativar som</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <!-- Última versão JavaScript compilada e minificada -->
+    <script src="forca.js"></script>
+  </body>
+</html>

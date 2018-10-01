@@ -1,0 +1,35 @@
+.principal {
+    background-image: url('assets/images/principal.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff !important;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff !important;
+}
+
+.principal-image {
+    width: 200px;
+}
+
+.principal-grid {
+    top: 25%;
+    position: relative;
+}
+
