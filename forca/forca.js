@@ -58,7 +58,7 @@
    showLives = function () {
     numVidas.innerHTML = "Você possui " + vidas + " vidas";
     if (vidas < 1) {
-      numVidas.innerHTML = "Game Over";
+      numVidas.innerHTML = "Game Over - A resposta era: " + palavra;
       disableButtons();
     }
 
