@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Pedra, Papel e tesoura</title>
+    <meta charset="utf-8">
+
+    <!--Estilo da Página-->
+    <link rel="stylesheet" type="text/css" href="pageinicial.css">
+</head>
+  <body>
+    <div class="principal">
+        <div align="center">
+            <img src="../assets/images/dragonball-logo.png" width="200px"/>
+            <h1>Jo Ken Po</h1>
+        </div>
+        <br>
+        <div id="choose"><h1>Escolha seu lutador</h1></div>
+        <table id="table-inicial" align="center">
+            <tr>
+                <td>
+                <a href="JavaScript:exibirGif('goku');">
+                    <img src="../assets/images/goku.png" class="img" />
+                    <h2>Goku</h2> 
+                </a>                
+                </td>
+               <td>
+                <a href="JavaScript:exibirGif('vegeta');">
+                    <img src="../assets/images/vegeta.png" class="img" />
+                    <h2>Vegeta</h2> 
+                </a>                
+                </td>
+                <td>
+                <a href="JavaScript:exibirGif('jiren');">
+                    <img src="../assets/images/jiren.png" class="img" />
+                    <h2>Jiren</h2> 
+                </a>                
+                </td>
+            </tr>
+        </table>
+         <img src="../assets/images/loading.gif" class="gif" id="gif">
+        <table id="table" class="table" align="center">
+            <tr>
+                <td>
+                    <img id="imgPerson" class="img"/>
+                </td>
+                <td>
+                 <h2 id="result"></h2>
+                </td>
+                <td class="ui-helper-center">
+                 X
+                </td>
+                <td>
+                 <h2 id="resultIa"></h2>
+                </td>
+                <td>
+                    <img id="imgIA" class="img"/>
+                </td>
+            </tr>
+        </table>
+        <h3 id="escolhaIa" align="center"></h3>
+        <br>
+        <br>
+        <br>
+        <table id="table-game" class="table" align="center">
+            <tr>
+                <td>
+                    <a href="JavaScript:jogar('pedra');">
+                        <img src="../assets/images/pedra.png" width="100px" />
+                    </a>
+                </td>
+                <td>
+                 <a href="JavaScript:jogar('papel');">
+                 <img src="../assets/images/papel.png" width="100px"/>
+                </a>
+                </td>
+                <td>
+                <a href="JavaScript:jogar('tesoura');">
+                 <img src="../assets/images/tesoura.png" width="100px"/>
+                </a>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <button id="reiniciar" class="reiniciar" align="center" onclick="reset()">Reiniciar</button>
+        <button id="sounds" class="reiniciar" align="center" onclick="sounds()">Ativar/Desativar som</button>
+    </div>
+
+
+    <!-- Última versão JavaScript compilada e minificada -->
+    <script src="pageinicial.js"></script>
+  </body>
+</html>

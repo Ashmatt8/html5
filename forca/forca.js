@@ -154,6 +154,7 @@ sounds = function () {
 
   if(soundPlay === 0 ){
       audio1.src = "../assets/sounds/pokemon.mp3";
+      audio1.loop = true;
       audio1.play();
       soundPlay = 1;
   }
