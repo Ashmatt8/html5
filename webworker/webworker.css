@@ -1,0 +1,16 @@
+.container
+{
+    top: 20px;
+    margin: 0% auto;
+    width: 70%;
+    height: 400px;
+    position:relative;
+    text-align:center;
+}
+.gif {
+    visibility: hidden;
+}
+html{
+    background-image: url('../assets/images/worker.jpg');
+    background-size: cover;
+}

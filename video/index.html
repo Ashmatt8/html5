@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body class="container">
+    <table class="container">
+        <tr>
+            <img src="../assets/images/spfc-logo.png" class="spfc"/>
+            <h1>PH GANSO VS RIVER PLATE</h1>
+        </tr>
+        <tr id="Video">
+            <video controls id="video">
+                    <source src="../assets/video/gol_ph_ganso.mp4" type="video/mp4"
+                        onended="myFunction()">
+            </video>
+        </tr>
+        <tr>
+            <td id="btn1">
+                <button id="btn1" type="submit" onclick="location.href='Page02.html';">
+                    <img src="../assets/images/pato.jpg" class="principal-image"/>
+                    <h1>ALEXANDRE PATO VS VASCO</h1>
+                </button>
+            </td>
+            <td id="btn2">
+                <button id="btn2" type="submit" onclick="location.href='Page03.html';">
+                    <img src="../assets/images/luisfabiano.jpeg" class="principal-image"/>
+                    <h1>LUIS FABIANO VS CORINTHIANS</h1>
+                </button>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

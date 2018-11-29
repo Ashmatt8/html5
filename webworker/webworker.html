@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webworker</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="webworker.css" />
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="principal">
+        <h1 align="center">Informe o Tamanho do Vetor</h1></td>
+        <div align="center">
+            <input type="number" id="inputNumber" oninput="maxLengthCheck(this)" maxlength="3">
+            <button onclick="gerarBubbleSort()">Calcular Ordenação BubbleSort</button>
+            <button onclick="gerarNativo()">Calcular Ordenação Nativo</button>
+        </div>
+        <br>
+        <table class="container" border="1">
+            <tr>
+                <td>
+                    <h1>Bolha:<label id="timeBubbleSort">0</label></h1>
+                </td>
+                <td>
+                    <h1>Nativo: <label id="timeNative">0</label></h1>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="webworker.js"></script>
+</body>
+</html>

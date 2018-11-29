@@ -1,0 +1,29 @@
+#video{
+    width: 1000px;
+}
+.container
+{
+    top: 20px;
+    margin: 0% auto;
+    width: 70%;
+    height: 400px;
+    position:relative;
+    text-align:center;
+}
+html{
+    background-image: url('../assets/images/spfc.jpg');
+    background-size: cover;
+}
+h1{
+    color: red;
+}
+button{
+    background-color: Transparent;
+    border: none;
+}
+.principal-image {
+    width: 200px;
+}
+.spfc {
+    width: 50px;
+}
