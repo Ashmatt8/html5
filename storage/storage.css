@@ -1,0 +1,35 @@
+body{
+    background-image: url('../assets/images/notepad.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+table{
+    padding-top: 135px;
+}
+h1{
+    font-size: 80px;
+}
+#titulo,h1{
+    margin-bottom: 10px;
+}
+.principal {
+    width: 500px;
+    height: 500px;
+    top: 20%;
+    left:35%;
+    position: absolute;
+}
+
+.text{
+    padding: 10px;
+}
